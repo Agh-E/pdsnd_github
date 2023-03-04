@@ -7,7 +7,14 @@
 Bikeshare data project
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare data exploration project is aimed at devicing a python program to interrogate Bikeshare data of three major cities namely chicago, new_york_city and washington by users. The goal is to capture and highlight Bikeshare customers'information on frequency of travels, popular stations & trips, duration of trips etc.
+The user interface prompt users to input options such as name of city from a list of these three cities (chicago, new_york_city and washington), then name of month from january to june with an option to select all months. This is followed by entering the name of any day of the week or "all" for all days of the week.
+Once the above information are provided, the program then calculates and displays results for several statistics based on the user input values. Examples of some of the statistics are:
+Displays statistics on the most frequent times of travel.
+Displays statistics on the most popular stations and trip.
+Displays statistics on the total and average trip duration.
+Gender and birth year of users.
+At this point, the program displays a line asking users to enter yes or no if they would like to see more raw data. The loop control flow statement will print 6 rows of raw data, a further 6 until the user enter no which then trigger the program to ask the user to input either yes or no to restart the program.
 
 ### Files used
 Include the files used
