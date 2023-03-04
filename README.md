@@ -23,5 +23,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Overwhelming majority of materials used are course meterials. Many thanks to all the tutors and for the readily available documents. However, there were few instances where I had to jump onto Google, stackoverflow for git command lines.
 
