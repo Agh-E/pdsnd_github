@@ -224,9 +224,14 @@ def main():
         user_stats(df, city)
         show_row_data(df)
         
-        restart = input('\nWould you like to restart? Please enter yes or no.\n').lower()
-        if restart.lower() != 'yes':
-            break
+        while True:
+            restart = input('\nWould you like to restart? Please enter yes or no.\n').lower()
+            if restart == 'yes':
+                break
+            elif restart == 'no':
+                return
+            else:
+                print('Invalid entry')
    
             
 if __name__ == "__main__":
