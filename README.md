@@ -17,7 +17,10 @@ Gender and birth year of users.
 At this point, the program displays a line asking users to enter yes or no if they would like to see more raw data. The loop control flow statement will print 6 rows of raw data, a further 6 until the user enter no which then trigger the program to ask the user to input either yes or no to restart the program.
 
 ### Files used
-Include the files used
+These are the three data files for the project
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
