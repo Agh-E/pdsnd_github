@@ -4,7 +4,7 @@
 21/02/2023 and 03/03/2023.
 
 ### Project Title
-Bikeshare data project
+Python program to explore Bikeshare Data
 
 ### Description
 Bikeshare data exploration project is aimed at devicing a python program to interrogate Bikeshare data of three major cities namely chicago, new_york_city and washington by users. The goal is to capture and highlight Bikeshare customers'information on frequency of travels, popular stations & trips, duration of trips etc.
