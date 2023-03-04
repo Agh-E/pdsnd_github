@@ -110,7 +110,7 @@ def time_stats(df):
     most_common_hour = df['hour'].mode()[0]
     print('Most common start hour of day is: ', most_common_hour)
     
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % round(time.time() - start_time, 2))
     print('-' * 40)
     
 def station_stats(df):
@@ -137,7 +137,7 @@ def station_stats(df):
     top_five_start_station = df['Start Station'].value_counts(5)
     print('Top five most common start stations are: \n{}'.format(df['Start Station'].value_counts()))
     
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % round(time.time() - start_time, 2))
     print('-' * 40)
     
 def trip_duration_stats(df):
@@ -148,13 +148,13 @@ def trip_duration_stats(df):
     
     # display total travel time
     total_travel_time = df['Trip Duration'].sum()
-    print('Total Travel Time:', total_travel_time, ' seconds, or ', total_travel_time/3600, 'hours')
+    print('Total Travel Time:', total_travel_time, ' seconds, or ', round(total_travel_time/3600, 2), 'hours')
     
     # display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    print('Mean travel time is:', mean_travel_time, ' seconds, or ', mean_travel_time/3600, 'hours') 
+    print('Mean travel time is:', mean_travel_time, ' seconds, or ', round(mean_travel_time/3600, 2), 'hours') 
     
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % round(time.time() - start_time, 2))
     print('-'*40)
     
 def user_stats(df,city):
@@ -195,7 +195,7 @@ def user_stats(df,city):
         number_missing_birth_year = df['Birth Year'].isnull().sum()
         print("Number of missing birth year data is:%s" % (number_missing_birth_year))
         
-    print("\nThis took {} seconds.".format(time.time() - start_time))
+    print("\nThis took {} seconds.".format(round(time.time() - start_time, 2))
     print('-' * 40)
     
 # view raw data to user 
