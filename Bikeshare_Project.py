@@ -206,8 +206,8 @@ def show_row_data(df):
         # row = 0
         if view_raw_data == "yes":
             
-            print(df.iloc[row : row + 6])
-            row += 6
+            print(df.iloc[row : row + 5])
+            row += 5
         elif view_raw_data == "no":
             break
         else: # validate user input
